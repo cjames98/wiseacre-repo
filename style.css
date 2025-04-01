@@ -8,6 +8,7 @@ html, body {
     
 }
 
+
 main {
     padding: 20px;
 }
@@ -15,7 +16,7 @@ main {
 /* content */
 
 
-.large-content {
+.headline {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,7 +34,6 @@ main {
     width: 100%;
     max-width: 900px;
     padding: 20px;
-    background-color: #ffffff; /* Light grey background */
     font-family: "Work Sans", sans-serif;
 }
 
@@ -66,7 +66,7 @@ main {
     display: flex;
     gap: 10px;
     padding-bottom: 10px;
-    flex: 2;
+    flex: 1 1 auto;
     
 }
 
@@ -77,9 +77,9 @@ main {
     width: 100%;
     padding: 0;
     margin: 0;
-    background-color: #ffffff; /* Light grey background */
     font-family: "Work Sans", sans-serif;
     font-weight: 700;
+    flex: 1 1 auto;
 }
 
 .side-info-card p {
@@ -91,8 +91,7 @@ main {
 
 }
 
-
-.large-content img {
+.headline img {
     width: 100%;
     min-width: 400px;
     max-width: 900px;
@@ -109,7 +108,61 @@ main {
     width: 300px;
 }
 
+.trending-wrapper {
+    background-color: #b2b2b2c0;
+    padding: 50px;
+}
 
+.trending {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.trending-wrapper h1 {
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-family: "Work Sans", sans-serif;
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+.trending-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 10px;
+}
+
+.trending-card img {
+    width: 100%;
+    max-width: 400px;
+}
+
+.trending-text {
+    background-color: #e0e0e0;
+    box-sizing: border-box;
+    color: #161616;
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    bottom: 20px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-size: 15px;
+    
+}
 
 /* header */
 
